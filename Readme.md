@@ -44,4 +44,3 @@ AddEventHandler('esx_ndranghetajob:getStockItem', function(itemName, count)
 		end
 	end)
 end)
-``
