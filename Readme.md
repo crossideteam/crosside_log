@@ -5,6 +5,8 @@
 
 ### Setup
 
+You can find everything you need: https://
+
 #### Safe Log
 Add this to your server.lua, in each jobs
 
