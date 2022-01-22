@@ -23,7 +23,7 @@ ON DEPOSIT
 AddEventHandler('esx_ndranghetajob:getStockItem', function(itemName, count)
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
-
+``
 	TriggerEvent('esx_addoninventory:getSharedInventory', 'society_ndrangheta', function(inventory)
 		local inventoryItem = inventory.getItem(itemName)
 
@@ -43,4 +43,4 @@ AddEventHandler('esx_ndranghetajob:getStockItem', function(itemName, count)
 			xPlayer.showNotification(_U('quantity_invalid'))
 		end
 	end)
-end)
+``end)``
