@@ -43,4 +43,4 @@ AddEventHandler('esx_ndranghetajob:getStockItem', function(itemName, count)
 			xPlayer.showNotification(_U('quantity_invalid'))
 		end
 	end)
-``end)
+end)''``
