@@ -1,0 +1,24 @@
+{
+  "name": "safe_log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossideteam/safe_log.git"
+  },
+  "author": "IGUESS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crossideteam/safe_log/issues"
+  },
+  "homepage": "https://github.com/crossideteam/safe_log#readme",
+  "dependencies": {
+    "@citizenfx/client": "^2.0.5181-1",
+    "@citizenfx/server": "^2.0.5181-1",
+    "ws": "^8.4.0"
+  }
+}
