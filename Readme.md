@@ -19,7 +19,7 @@ ON DEPOSIT
 
 #####Like that
 
-``AddEventHandler('esx_ndranghetajob:getStockItem', function(itemName, count)
+"AddEventHandler('esx_ndranghetajob:getStockItem', function(itemName, count)
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	
@@ -42,4 +42,4 @@ ON DEPOSIT
 			xPlayer.showNotification(_U('quantity_invalid'))
 		end
 	end)
-end)``
+end)"
