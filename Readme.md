@@ -5,7 +5,7 @@
 
 ### Setup
 
-You can find everything you need: https://
+You can find everything you need: https://crosside.eu/crosside_log
 
 #### Safe Log
 Add this to your server.lua, in each jobs
