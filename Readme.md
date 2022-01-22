@@ -33,7 +33,9 @@ ON DEPOSIT
 			if xPlayer.canCarryItem(itemName, count) then
 				inventory.removeItem(itemName, count)
 				xPlayer.addInventoryItem(itemName, count)
-				TriggerEvent("crosside_log:safe_log", xPlayer.job.name, GetPlayerName(_source), 'withdraw', itemName, count)
+				
+				TriggerEvent("crosside_log:safe_log", xPlayer.job.name, GetPlayerName(_source), 'withdraw', itemName, count) -- here
+				
 				xPlayer.showNotification(_U('have_withdrawn', count, inventoryItem.name))
 			else
 				xPlayer.showNotification(_U('quantity_invalid'))
